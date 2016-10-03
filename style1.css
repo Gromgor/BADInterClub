@@ -1,0 +1,284 @@
+body {
+    margin:0;
+	padding:0;
+	text-align:center;
+	overflow:hidden;
+	
+	background:url("images/banc.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+	color:white;
+	
+}
+body#body_aide{	
+    margin:0;
+	padding:0;
+	text-align:center;
+	overflow-y:auto;
+	
+	background:url("images/banc.jpg");
+    background-repeat: auto;
+	color:white;
+}
+img{
+	height:20vh;
+	vertical-align:middle;
+}
+table{
+	margin:auto;
+}
+header{
+	font-size:200%;
+	margin-top:3em;
+	margin-bottom:2em;
+}
+a{
+	color:white;
+}
+footer#footer-std{
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+footer#footer-index{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	padding-left:3px;
+}
+footer#footer-aide{
+	width:100%;
+	padding-left:3px;
+}
+input[type="text"] {
+	text-align:center;
+}
+input[type="number"] {
+	text-align:center;
+	width:40px;
+}
+/*input[type="file"] {*/
+.hidefile{
+	text-align:center;
+	display:none;
+}
+.bouton{
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  padding: .2em .4em;
+}
+table#adm_logos{
+	border-collapse:collapse;
+	border:solid 2px black;
+}
+table#adm_logos td{
+	border:solid 2px black;
+	padding:2px;
+}
+table#adm_logos td img{
+	height:25px;
+}
+
+#wrapper{
+	margin:auto;
+	width:40vw;
+	text-align:center;
+}
+
+#wrapper-aide{
+	margin:auto;
+	width:80vw;
+	text-align:center;
+}
+
+#separation{
+	background-color:black;
+}
+
+#div{
+	height:24vh;
+	font-size:16vh;
+}
+#div2{
+	height:24vh;
+	font-size:16vh;
+	border-bottom:solid 0.2em black;
+}
+
+#index3{
+	border-collapse:collapse;
+	width:100vw;
+	text-align:left;
+}
+#index3 td{
+	font-size:16vh;
+	padding-left:0.2em;
+	padding-right:0.2em;
+}
+#index3 tr{
+	height:25vh;
+}
+#index3 tr:nth-child(2) td{
+	border-bottom:solid 0.1em red;
+}
+
+
+#index2{
+	border-collapse:collapse;
+	width:100vw;
+	text-align:left;
+}
+#index2 td{
+	font-size:16vh;
+	padding-left:0.2em;
+	padding-right:0.2em;
+}
+#index2 tr{
+	height:50vh;
+}
+#index2 tr:first-child td{
+	border-bottom:solid 0.1em red;
+}
+
+#panel-config{
+	border: 2px solid #ff3924;
+	padding: 3px;
+	background-color: #ffaca3;
+	color:black;
+	-moz-border-radius:9px; 
+	-khtml-border-radius:9px; 
+	-webkit-border-radius:9px; 
+	border-radius:9px;
+	width:40vw;
+}
+#panel-equipe{
+	margin-bottom:80px;
+	border: 2px solid #1c75c8;
+	padding: 3px;
+	background-color: #c5ddf6;
+	color:black;
+	-moz-border-radius:9px; 
+	-khtml-border-radius:9px; 
+	-webkit-border-radius:9px; 
+	border-radius:9px;
+	width:40vw;
+}
+#panel-score{
+	margin-bottom:20px;
+	border: 2px solid #1c75c8;
+	padding: 3px;
+	background-color: #c5ddf6;
+	color:black;
+	-moz-border-radius:9px; 
+	-khtml-border-radius:9px; 
+	-webkit-border-radius:9px; 
+	border-radius:9px;
+	width:40vw;
+}
+#panel-aide{
+	margin-bottom:20px;
+	border: 2px solid #1c75c8;
+	padding: 3px;
+	background-color: #c5ddf6;
+	color:black;
+	-moz-border-radius:9px; 
+	-khtml-border-radius:9px; 
+	-webkit-border-radius:9px; 
+	border-radius:9px;
+	width:80vw;
+	text-align:left;
+}
+#panel-aide p h1{
+	text-align:center;
+}
+#panel-aide img{
+	height:25px;
+}
+#panel-aide a{
+	color:blue;
+}
+#panel-aide a:hover{
+	color:orange;
+}
+#panel-aide a:visited{
+	color:purple;
+}
+#score_update{
+	padding:10px 20px;
+	font-weight:bold;
+	background-color:#D1795C;
+	background-color:#7AD15C;
+	background-color:#C5DDF6;
+	border: 2px solid #1c75c8;
+	-moz-border-radius:9px; 
+	-khtml-border-radius:9px; 
+	-webkit-border-radius:9px; 
+	border-radius:9px;
+}
+#score_update:hover{
+	border: 2px solid red;	
+}
+
+td .victoire{
+	display:block;
+	font-size:4vh;
+	line-height:4vh;
+	width:10vw;
+}
+
+.hidediv{
+	display:none;
+}
+
+table#tab-competition{
+	color:black;
+	margin-top:1vw;
+	margin-bottom:1vw;
+	border-collapse:collapse;
+	border:solid 2px black;
+}
+table#tab-competition th{
+	border-top:solid 2px black;
+	border-bottom:solid 2px black;
+	padding:5px;
+}
+table#tab-competition td{
+	border-top:solid 2px black;
+	border-bottom:solid 2px black;
+	padding:5px;
+}
+table#tab-competition td img{
+	height:25px;
+}
+.center{
+	text-align:center;
+}
+.left{
+	text-align:left;
+}
+.right{
+	text-align:right;
+}
+table#tab-modification{
+	color:black;
+	margin-top:1vw;
+	margin-bottom:1vw;
+	border-collapse:collapse;
+}
+
+table#tab-modification td{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+table#tab-search{
+	color:black;
+	width:100%;
+	border-collapse:collapse;
+}
+
+input[type="image"]{
+	height:20px;
+	margin-right:5px;
+}

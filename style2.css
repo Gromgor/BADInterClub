@@ -1,0 +1,70 @@
+body {
+    margin:0;
+	padding:0;
+	text-align:center;
+	overflow:hidden;
+	
+	background-color:#1F1F1F;
+	font-family:"Lucida Console", Monaco, monospace;	
+}
+img{
+	height:20vh;
+	vertical-align:middle;
+}
+table{
+	margin:auto;
+}
+
+#wrapper{
+	margin:auto;
+	width:30vw;
+	text-align:center;
+}
+
+
+tr:nth-child(even){	
+	color:#00ff00;
+}
+tr:nth-child(odd){
+	color:#FF8800;
+}
+
+#index3{
+	border-collapse:collapse;
+	width:100vw;
+	text-align:left;
+}
+#index3 td{
+	font-size:16vh;
+	padding-left:0.2em;
+	padding-right:0.2em;
+}
+#index3 tr{
+	height:25vh;
+}
+#index3 tr:nth-child(2) td{
+	border-bottom:solid 0.1em black;
+}
+
+#index2{
+	border-collapse:collapse;
+	width:100vw;
+	text-align:left;
+}
+#index2 td{
+	font-size:16vh;
+	padding-left:0.2em;
+	padding-right:0.2em;
+}
+#index2 tr{
+	height:50vh;
+}
+#index2 tr:first-child td{
+	border-bottom:solid 0.3em black;
+}
+td .victoire{
+	display:block;
+	font-size:4vh;
+	line-height:4vh;
+	width:10vw;
+}
